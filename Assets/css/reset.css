@@ -1,0 +1,24 @@
+@media screen and (max-width: 1024px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main, body, nav{
+    flex-direction: column;
+    width: 100%;
+    }
+    /* Make the sidebar stack below the body */
+
+    main {
+        order: 2;
+    }
+@media screen and (max-width: 678px) {
+    main, body, nav {
+    flex-direction: column;
+    width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    main, nav {
+    flex-direction: column;
+    width: 100%;
+    }
+}
+}
